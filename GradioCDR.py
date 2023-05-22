@@ -45,7 +45,7 @@ def interfaz_gradio(file):
 
     output_text = ""
     for resultado in resultados:
-        output_text += f"Resultado mayor a 6 entre {resultado['correo_persona_actual']} y {resultado['correo_otra_persona']}\n"
+        output_text += f"Relacion encontrada entre {resultado['correo_persona_actual']} y {resultado['correo_otra_persona']}\n"
         output_text += f"Columnas: {', '.join(resultado['columnas'])}\n"
         output_text += "---\n"
 
